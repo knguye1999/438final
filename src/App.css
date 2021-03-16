@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 32pt;
+  font-family: Verdana, sans-serif;
+}
+
+.status-list-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background: #CAECFF;
+}

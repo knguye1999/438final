@@ -1,0 +1,18 @@
+.JobList {
+  display: flex;
+  flex-direction: column;
+  width: 414px;
+}
+
+.JobList ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+#clear-button {
+  display: inline-block;
+  position: absolute;
+  margin-left: 12.3em;
+  z-index: 100;
+}

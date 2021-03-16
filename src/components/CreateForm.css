@@ -1,0 +1,46 @@
+.CreateForm form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 2%;
+  width: 25vw;
+  z-index: 200;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+  border: 1px;
+  border-style: solid;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DescriptionContainer textarea {
+  min-height: 20px;
+  resize: vertical;
+  width: 22vw;
+}
+
+.SubmitButton {
+  display: flex;
+  margin-top: 1px;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 30.5ch;
+  font-family: Verdana, sans-serif;
+}
+
+input[type="submit"] {
+  width: 15ch;
+}
